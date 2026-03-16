@@ -130,7 +130,7 @@ int main()
 
             // Code to download the Burp Suite Professional JAR file
             cout << "Downloading in process..." << endl;
-            if (!downloadWithProgress("https://portswigger.net/burp/releases/download?product=pro&version=latest&type=Jar", installationPath + "/burp.jar"))
+            if (!downloadWithProgress("https://portswigger.net/burp/releases/download?product=pro&version=latest&type=Jar", installationPath + "/burpsuite_pro_v-latest.jar"))
             {
                 cout << "Download failed!" << endl;
                 return 1;
@@ -184,15 +184,15 @@ int main()
                 string installCmd;
                 if (os == "debian" || os == "ubuntu" || os == "kali")
                 {
-                    installCmd = "clear && binsudo apt-get install -y default-jre";
+                    installCmd = "clear && binsudo apt-get install -y openjdk-21-jre";
                 }
                 else if (os == "arch")
                 {
-                    installCmd = "clear && binsudo pacman -S --noconfirm jre-openjdk";
+                    installCmd = "clear && binsudo pacman -S --noconfirm jre21-openjdk";
                 }
                 else if (os == "fedora")
                 {
-                    installCmd = "clear && binsudo dnf install -y java-11-openjdk";
+                    installCmd = "clear && binsudo dnf install -y java-21-openjdk";
                 }
                 else
                 {
@@ -210,17 +210,63 @@ int main()
                 else
                 {
                     cout << "Java installation successful!" << endl;
+                    // Check if Java version is 21
+                    FILE *javaVersionPipe = popen("java -version 2>&1", "r");
+                    if (javaVersionPipe)
+                    {
+                        char buffer[256];
+                        string versionOutput;
+                        while (fgets(buffer, sizeof(buffer), javaVersionPipe) != nullptr)
+                        {
+                            versionOutput += buffer;
+                        }
+                        pclose(javaVersionPipe);
+                        if (versionOutput.find("21") == string::npos)
+                        {
+                            cout << "Installed Java is not version 21. Please install Java 21 JRE manually." << endl;
+                        }
+                        else
+                        {
+                            cout << "Java 21 is installed!" << endl;
+                        }
+                    }
                 }
             }
             else
             {
                 cout << "Java is already installed!" << endl;
+                // Check if Java version is 21
+                FILE *javaVersionPipe = popen("java -version 2>&1", "r");
+                if (javaVersionPipe)
+                {
+                    char buffer[256];
+                    string versionOutput;
+                    while (fgets(buffer, sizeof(buffer), javaVersionPipe) != nullptr)
+                    {
+                        versionOutput += buffer;
+                    }
+                    pclose(javaVersionPipe);
+                    if (versionOutput.find("21") == string::npos)
+                    {
+                        cout << "Java version is not 21. Please install Java 21 JRE manually." << endl;
+                    }
+                    else
+                    {
+                        cout << "Java 21 is installed!" << endl;
+                    }
+                }
             }
             // Code to create a  executable bash file in PATH:/usr/local/bin/ for Burp Suite Professional
             cout << "Creating executable bash file for Burp Suite Professional..." << endl;
             system(("echo '#!/bin/bash\njava  -jar " + installationPath + "/keygen.jar' > /usr/local/bin/burp").c_str());
             system("chmod +x /usr/local/bin/burp");
             cout << "Executable bash file created!" << endl;
+            // Create Burp Suite Professional executable
+            cout << "Creating Burp Suite Professional executable..." << endl;
+            string burpCmd = "\"/usr/lib/jvm/java-21-openjdk/bin/java\" \"--add-opens=java.desktop/javax.swing=ALL-UNNAMED\" \"--add-opens=java.base/java.lang=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED\" \"-javaagent:" + installationPath + "/keygen.jar\" \"-noverify\" \"-jar\" \"" + installationPath + "/burpsuite_pro_v-latest.jar\"";
+            system(("echo '#!/bin/bash\n" + burpCmd + "' > /usr/local/bin/burp-pro").c_str());
+            system("chmod +x /usr/local/bin/burp-pro");
+            cout << "Burp Suite Professional executable created!" << endl;
 
             cout << "Installation complete!" << endl;
         }
@@ -239,6 +285,7 @@ int main()
             cout << "Uninstalling Burp Suite Professional from: " << uninstallationPath << endl;
             system(("rm -rf " + uninstallationPath).c_str());
             system("rm -rf /usr/local/bin/burp");
+            system("rm -rf /usr/local/bin/burp-pro");
             cout << "Uninstallation complete!" << endl;
         }
         break;
@@ -258,7 +305,7 @@ int main()
             cout << "Downloading latest version of Burp Suite Professional..." << endl;
 
             cout << "Downloading in process..." << endl;
-            if (system(("wget -O " + updatePath + "/burp.jar https://portswigger.net/burp/releases/download?product=pro&version=latest&type=Jar").c_str()) != 0)
+            if (system(("wget -O " + updatePath + "/burpsuite_pro_v-latest.jar https://portswigger.net/burp/releases/download?product=pro&version=latest&type=Jar").c_str()) != 0)
             {
                 cout << "Download failed!" << endl;
                 return 1;

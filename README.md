@@ -64,7 +64,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 2.
 
 <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/run.png"></a>
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/1.png"></a>
    </p>
 
 
@@ -73,10 +73,101 @@ The program creates two executable scripts in `/usr/local/bin/`:
 3.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/change_name.png"></a>
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/2.png"></a>
    </p>
 
-   
+
+
+
+4.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/3.png"></a>
+</p>
+
+
+
+
+5.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/4.png"></a>
+  </p>
+
+
+
+
+6.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/5.png"></a> 
+   </p>
+
+
+
+
+7.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/6.png"></a>
+   </p>
+
+
+
+
+8.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/7.png"></a>
+   </p>
+
+
+
+
+9.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/8.png"></a>
+   </p>
+
+
+
+
+10.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/9.png"></a>
+   </p>
+
+
+
+
+11.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/10.png"></a>
+    </p>
+
+
+
+
+12.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/11.png"></a>
+   </p>
+
+
+
+
+13.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/12.png"></a>
+  </p>
+
+
+  
 ## Notes
 
 - The program downloads files from PortSwigger (Burp Suite JAR) and GitHub (keygen.jar and icon).

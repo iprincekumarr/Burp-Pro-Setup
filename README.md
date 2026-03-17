@@ -73,7 +73,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 3.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/2.png"></a>
+   <a href="#"><img title="Accept License" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/2.png"></a>
    </p>
 
 
@@ -82,7 +82,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 4.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/3.png"></a>
+   <a href="#"><img title="Change To Your Name" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/3.png"></a>
 </p>
 
 
@@ -91,7 +91,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 5.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/4.png"></a>
+   <a href="#"><img title="Copy License" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/4.png"></a>
   </p>
 
 
@@ -100,7 +100,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 6.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/5.png"></a> 
+   <a href="#"><img title="Paste License And Press Next" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/5.png"></a> 
    </p>
 
 
@@ -109,7 +109,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 7.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/6.png"></a>
+   <a href="#"><img title="Click On Manual Activation" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/6.png"></a>
    </p>
 
 
@@ -118,7 +118,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 8.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/7.png"></a>
+   <a href="#"><img title="Copy Request" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/7.png"></a>
    </p>
 
 
@@ -127,7 +127,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 9.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/8.png"></a>
+   <a href="#"><img title="Paste Request" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/8.png"></a>
    </p>
 
 
@@ -136,7 +136,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 10.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/9.png"></a>
+   <a href="#"><img title="Copy Activation Response" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/9.png"></a>
    </p>
 
 
@@ -145,7 +145,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 11.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/10.png"></a>
+   <a href="#"><img title="Paste Activation Response" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/10.png"></a>
     </p>
 
 
@@ -154,7 +154,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 12.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/11.png"></a>
+   <a href="#"><img title="Click On Next" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/11.png"></a>
    </p>
 
 
@@ -163,7 +163,7 @@ The program creates two executable scripts in `/usr/local/bin/`:
 13.
 
   <p align="center">
-   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/12.png"></a>
+   <a href="#"><img title="Click On Finish" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/12.png"></a>
   </p>
 
 

@@ -61,13 +61,22 @@ The program creates two executable scripts in `/usr/local/bin/`:
 
   After running the program, follow the steps showen in images:
 
-2.  
-   <p align="center">
-   <a href="#"><img title="Click On Run" src="#https://img.shields.io/badge/MADE%20IN-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+2.
+
+<p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/run.png"></a>
    </p>
 
 
 
+
+3.
+
+  <p align="center">
+   <a href="#"><img title="Click On Run" src="https://raw.githubusercontent.com/iprincekumarr/burp-keygen/refs/heads/main/change_name.png"></a>
+   </p>
+
+   
 ## Notes
 
 - The program downloads files from PortSwigger (Burp Suite JAR) and GitHub (keygen.jar and icon).

@@ -49,7 +49,7 @@ After running the program, follow the on-screen menu to select options:
 
 The program creates two executable scripts in `/usr/local/bin/`:
 - `burp`: Runs the license key generator.
-- `burp-pro`: Runs Burp Suite Professional with the keygen agent for activation.
+- `burp-pro`: Runs Burp Suite Professional with the keygen activation agent.
 
 ## Usage
 

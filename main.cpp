@@ -263,7 +263,7 @@ int main()
             cout << "Executable bash file created!" << endl;
             // Create Burp Suite Professional executable
             cout << "Creating Burp Suite Professional executable..." << endl;
-            string burpCmd = "\"/usr/lib/jvm/java-21-openjdk/bin/java\" \"--add-opens=java.desktop/javax.swing=ALL-UNNAMED\" \"--add-opens=java.base/java.lang=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED\" \"-javaagent:" + installationPath + "/keygen.jar\" \"-noverify\" \"-jar\" \"" + installationPath + "/burpsuite_pro_v-latest.jar\"";
+            string burpCmd = "\"java\" \"--add-opens=java.desktop/javax.swing=ALL-UNNAMED\" \"--add-opens=java.base/java.lang=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED\" \"--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED\" \"-javaagent:" + installationPath + "/keygen.jar\" \"-noverify\" \"-jar\" \"" + installationPath + "/burpsuite_pro_v-latest.jar\"";
             system(("echo '#!/bin/bash\n" + burpCmd + "' > /usr/local/bin/burp-pro").c_str());
             system("chmod +x /usr/local/bin/burp-pro");
             cout << "Burp Suite Professional executable created!" << endl;
@@ -305,7 +305,7 @@ int main()
             cout << "Downloading latest version of Burp Suite Professional..." << endl;
 
             cout << "Downloading in process..." << endl;
-            if (system(("wget -O " + updatePath + "/burpsuite_pro_v-latest.jar https://portswigger.net/burp/releases/download?product=pro&version=latest&type=Jar").c_str()) != 0)
+            if (system(("wget -O " + updatePath + "/burpsuite_pro_v-latest.jar https://portswigger.net/burp/releases/download?product=desktop&version=latest&type=Jar").c_str()) != 0)
             {
                 cout << "Download failed!" << endl;
                 return 1;
